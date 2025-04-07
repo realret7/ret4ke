@@ -63,7 +63,6 @@ if /i "!currentHWID!"=="%targetHWID%" (
     exit /b
 )
 
-powershell -Command "attrib +h \"%logFile%\""
 
 set "isValidCode=false"
 for %%i in (ret) do (
